@@ -1,38 +1,50 @@
-# Sindicância — Manual Interativo
+# ADM — Portal de Estudos Administrativos
 
-Material interativo para estudo das **Instruções Gerais para a Elaboração de Sindicância no Âmbito do Exército Brasileiro — EB10-IG-09.001**.
+Portal interativo para estudo e revisão de temas de **Administração Militar e Administração Pública**, reunindo os materiais do repositório em páginas HTML independentes e acessíveis pelo GitHub Pages.
 
-O conteúdo foi organizado de acordo com o objetivo de cada capítulo, facilitando a compreensão dos procedimentos, a memorização dos prazos e a identificação de ressalvas importantes.
+## 🌐 Acesso
 
-## Conteúdo
+[**Abrir o portal ADM**](https://luizgsrocha.github.io/adm/)
 
-- Finalidade e competência;
-- Disposições gerais;
-- Procedimentos do rito ordinário;
-- Prazos;
-- Contraditório e ampla defesa;
-- Disposições finais.
+## 📚 Materiais disponíveis
 
-> O rito sumário foi excluído deste material de estudo.
+### Administração Militar
 
-## Recursos
+- **Sindicância** — estudo das Instruções Gerais EB10-IG-09.001, com organização do rito, prazos, contraditório, ampla defesa e pontos importantes.
+- **RAE** — Regulamento de Administração do Exército, com artigos selecionados e resumos para revisão.
+- **RISG** — Regulamento Interno e dos Serviços Gerais, com conteúdos selecionados para estudo.
+- **RDE** — Regulamento Disciplinar do Exército.
+- **Documento SU** — material relacionado à documentação da Subunidade.
+- **Folhas de Alterações** — conteúdo específico para estudo e consulta.
 
-- Navegação por capítulos;
-- Conteúdo organizado em cartões, fluxos e linhas do tempo;
-- Checklist interativo do rito ordinário;
-- Busca dentro dos capítulos;
-- Destaque para prazos, exceções e pegadinhas;
-- Interface responsiva para computador, tablet e celular;
-- Funcionamento em um único arquivo HTML.
+### Licitações e Contratos
 
-## Acesso
+- **Lei nº 14.133/2021** — página dedicada a licitações e contratos administrativos.
+- **Revisão de critérios, prazos e fases** — material complementar para memorização e revisão rápida.
 
-[🌐 Abrir o manual interativo](https://luizgsrocha.github.io/adm/)
+## 🧭 Organização do repositório
 
-## Utilização
+| Arquivo | Conteúdo |
+|---|---|
+| `index.html` | Página inicial do portal |
+| `sindicancia.html` | Sindicância |
+| `rae.html` | Regulamento de Administração do Exército |
+| `risg.html` | Regulamento Interno e dos Serviços Gerais |
+| `rde.html` | Regulamento Disciplinar do Exército |
+| `documento-su.html` | Documento SU |
+| `folhas-alteracoes.html` | Folhas de Alterações |
+| `licitacoes-contratos.html` | Licitações e Contratos — Lei nº 14.133/2021 |
+| `revisao-criterios-prazos-fases.html` | Revisão de critérios, prazos e fases |
 
-Selecione um capítulo pelo menu lateral ou pelos botões numerados no celular. No rito ordinário, toque em uma etapa para marcá-la como revisada. Utilize a busca para localizar informações dentro dos capítulos compatíveis.
+## ✨ Características
 
-## Finalidade
+- Conteúdo organizado para **estudo e revisão rápida**;
+- páginas HTML independentes;
+- navegação por temas e categorias;
+- cartões, resumos, fluxos e recursos de memorização conforme o assunto;
+- interface responsiva para computador, tablet e celular;
+- publicação direta pelo GitHub Pages.
 
-Material elaborado exclusivamente para estudo e revisão. A norma original deve ser consultada para aplicação administrativa.
+## ⚠️ Finalidade
+
+Este repositório é destinado exclusivamente a **estudo e revisão**. Para aplicação administrativa ou jurídica, devem ser consultadas as normas oficiais e suas versões atualizadas.
