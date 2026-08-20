@@ -1,0 +1,1 @@
+Índices internos usam âncoras da própria página e não alteram o peso de carregamento de forma relevante; o objetivo é facilitar navegação e revisão.

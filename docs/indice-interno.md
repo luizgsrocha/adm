@@ -1,0 +1,1 @@
+O padrão de índice interno do portal usa âncoras na própria página, rolagem suave e navegação horizontal no celular. RDE e Sindicância já possuem navegação interna própria; o RAE passa a usar o mesmo princípio com atalhos para Recebimento, Descarga, Responsabilidade, Passagem de função, Prazos e Pontos fortes.
