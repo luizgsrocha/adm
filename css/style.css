@@ -1,0 +1,145 @@
+/* ADM — base visual compartilhada
+   Componentes comuns para todas as páginas do portal. */
+
+:root {
+  --adm-green: #173025;
+  --adm-green-2: #31533b;
+  --adm-gold: #d3b56c;
+  --adm-bg: #f1efe7;
+  --adm-paper: #fbfaf6;
+  --adm-ink: #17291f;
+  --adm-muted: #66736a;
+  --adm-line: #d8d8cc;
+  --adm-red: #a84a37;
+  --adm-blue: #315f73;
+  --adm-highlight: #fff1a8;
+
+  /* aliases para manter compatibilidade com as páginas existentes */
+  --g: var(--adm-green);
+  --green: var(--adm-green);
+  --g2: var(--adm-green-2);
+  --olive: var(--adm-green-2);
+  --gold: var(--adm-gold);
+  --cream: var(--adm-bg);
+  --bg: var(--adm-bg);
+  --paper: var(--adm-paper);
+  --ink: var(--adm-ink);
+  --muted: var(--adm-muted);
+  --line: var(--adm-line);
+  --red: var(--adm-red);
+  --hl: var(--adm-highlight);
+}
+
+html { scroll-behavior: smooth; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; }
+button, input { font: inherit; }
+button { cursor: pointer; }
+
+/* Navegação padrão */
+.adm-actions,
+.page-actions {
+  display: flex;
+  gap: 8px;
+}
+.adm-actions a,
+.adm-actions button,
+.page-actions a,
+.page-actions button {
+  border: 1px solid #ffffff35;
+  background: var(--adm-green);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 9px 13px;
+  font: 700 12px Arial, sans-serif;
+  cursor: pointer;
+}
+
+/* Componentes semânticos de estudo */
+.study-box {
+  border: 1px solid var(--adm-line);
+  border-left: 5px solid var(--adm-green-2);
+  background: var(--adm-paper);
+  border-radius: 12px;
+  padding: 16px 18px;
+  margin: 14px 0;
+}
+.study-box > strong:first-child {
+  display: block;
+  margin-bottom: 7px;
+  font-size: 11px;
+  letter-spacing: .08em;
+}
+.study-box p:last-child { margin-bottom: 0; }
+
+.regra { border-left-color: var(--adm-green-2); background: #e5eee3; }
+.excecao { border-left-color: var(--adm-blue); background: #e7eef1; }
+.pegadinha { border-left-color: var(--adm-red); background: #f4e7e3; }
+.decore { border-left-color: var(--adm-gold); background: #fff7df; }
+.prazo { border-left-color: var(--adm-gold); background: #f3ecdc; }
+
+.regra > strong:first-child { color: var(--adm-green-2); }
+.excecao > strong:first-child { color: var(--adm-blue); }
+.pegadinha > strong:first-child { color: var(--adm-red); }
+.decore > strong:first-child,
+.prazo > strong:first-child { color: #795c1f; }
+
+/* Chips / etiquetas */
+.adm-tag {
+  display: inline-block;
+  background: #e2eadf;
+  color: var(--adm-green-2);
+  border-radius: 30px;
+  padding: 5px 9px;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .04em;
+}
+
+/* Cards compartilhados para novas páginas/refatorações */
+.adm-card {
+  background: var(--adm-paper);
+  border: 1px solid var(--adm-line);
+  border-radius: 17px;
+  padding: 20px;
+}
+.adm-card h2,
+.adm-card h3 { margin-top: 0; }
+
+/* Linha de prazo reutilizável */
+.adm-deadline {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 10px;
+  align-items: center;
+  border-bottom: 1px solid var(--adm-line);
+  padding: 9px 0;
+}
+.adm-deadline strong { color: var(--adm-red); }
+
+/* Destaque para memorização */
+.adm-memory {
+  padding: 12px 14px;
+  border-radius: 11px;
+  background: var(--adm-green);
+  color: #fff;
+  line-height: 1.5;
+}
+
+/* Acessibilidade */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 3px solid var(--adm-gold);
+  outline-offset: 3px;
+}
+
+@media (max-width: 700px) {
+  .adm-card { padding: 17px; border-radius: 15px; }
+  .adm-deadline { grid-template-columns: 1fr; }
+  .adm-actions a,
+  .adm-actions button,
+  .page-actions a,
+  .page-actions button { padding: 9px 11px; font-size: 11px; }
+}
