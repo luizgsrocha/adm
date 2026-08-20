@@ -1,0 +1,1 @@
+`indice-interno.css` define o componente visual reutilizável para índices internos horizontais e responsivos.
